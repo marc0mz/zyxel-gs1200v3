@@ -1,0 +1,13 @@
+{
+  "domain": "zyxel_gs1200v3",
+  "name": "Zyxel GS1200v3 PoE",
+  "version": "0.1.25",
+  "documentation": "https://github.com/marc0mz/zyxel-gs1200v3#readme",
+  "issue_tracker": "https://github.com/marc0mz/zyxel-gs1200v3/issues",
+  "codeowners": ["@marc0mz"],
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "requirements": [
+    "beautifulsoup4>=4.12.0"
+  ]
+}

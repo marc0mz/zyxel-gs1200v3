@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Zyxel GS1200v3",
+        "description": "Inserisci IP/hostname e password amministratore dello switch.",
+        "data": {
+          "host": "IP o hostname",
+          "password": "Password",
+          "verify_ssl": "Verifica certificato HTTPS"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossibile collegarsi allo switch.",
+      "unknown": "Errore inatteso."
+    },
+    "abort": {
+      "already_configured": "Questo switch è già configurato."
+    }
+  }
+}
