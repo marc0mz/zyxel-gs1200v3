@@ -2,7 +2,7 @@
 
 Home Assistant custom integration for the Zyxel GS1200-8HPv3 managed PoE switch.
 
-> **Alpha 0.1.25:** this is the simple baseline with separate PoE and Ethernet controls. It does not include the additional diagnostic sensors or experimental controls from later development builds.
+> **Alpha 0.1.26:** this is the simple baseline with separate PoE and Ethernet controls. It does not include the additional diagnostic sensors or experimental controls from later development builds.
 
 ## Features
 
@@ -19,13 +19,13 @@ VLANs, link aggregation, mirroring, QoS, IGMP snooping, port statistics, speed/d
 
 ### HACS custom repository
 
-After the repository is public, add `https://github.com/marc0mz/zyxel-gs1200v3` in **HACS → Integrations → ⋮ → Custom repositories**, choose **Integration**, download it, and restart Home Assistant. Until a tagged release is published, HACS can install the default branch.
+Add `https://github.com/marc0mz/zyxel-gs1200v3` in **HACS → Integrations → ⋮ → Custom repositories**, choose **Integration**, download the latest release, and restart Home Assistant.
 
 ### Manual
 
 Copy `custom_components/zyxel_gs1200v3` into Home Assistant's `config/custom_components/` directory, restart Home Assistant, then add **Zyxel GS1200v3 PoE** from **Settings → Devices & services**.
 
-Enter the switch address and administrator password. Home Assistant stores the password in its config entry; the integration does not write it to its logs.
+Enter the switch address and administrator password. The host field starts blank so each user supplies their own switch address. Home Assistant stores the password in its config entry; the integration does not write it to its logs.
 
 ## Supported hardware
 
