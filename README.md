@@ -35,6 +35,12 @@ Developed for Zyxel GS1200-8HPv3, firmware V1.00(ACPV.2)C0. Other hardware revis
 
 Disabling Ethernet disconnects every device using that port. Verify the port before changing its Ethernet switch or creating automations.
 
+## Contributing
+
+Issues and pull requests are welcome. Please do not include switch passwords, Home Assistant tokens, or other credentials in issues, logs, or screenshots. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for details.
+
+This project is licensed under the MIT License; see [`LICENSE`](LICENSE).
+
 ## Development
 
-The scope and validation record are in [`docs/SWITCH_WEB_UI.md`](docs/SWITCH_WEB_UI.md) and [`TEST_LOG.md`](TEST_LOG.md). The blue `Z` tile is an original project monogram, not Zyxel's official logo. A software license still needs to be selected before the project invites reuse or contributions.
+The scope and validation record are in [`docs/SWITCH_WEB_UI.md`](docs/SWITCH_WEB_UI.md) and [`TEST_LOG.md`](TEST_LOG.md). The blue `Z` tile is an original project monogram, not Zyxel's official logo.
