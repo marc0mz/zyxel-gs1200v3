@@ -2,7 +2,7 @@
 
 Home Assistant custom integration for the Zyxel GS1200-8HPv3 managed PoE switch.
 
-> **Alpha 0.1.26:** this is the simple baseline with separate PoE and Ethernet controls. It does not include the additional diagnostic sensors or experimental controls from later development builds.
+> **Alpha 0.1.25:** this is the simple baseline with separate PoE and Ethernet controls. It does not include the additional diagnostic sensors or experimental controls from later development builds.
 
 ## Features
 
